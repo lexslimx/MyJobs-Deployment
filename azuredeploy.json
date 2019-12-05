@@ -4,6 +4,7 @@
     "parameters": {
       "webAppName": {
         "type": "string",
+         "defaultValue":"Free",
         "metadata": {
           "description": "The name of the web app"
         },
@@ -11,7 +12,7 @@
       },
       "sku":{
         "type": "string",
-        "defaultValue":"Free" ,
+        "defaultValue":"Free",
         "metadata": {
           "description": "The SKU of App Service Plan"
         }
