@@ -2,11 +2,8 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "sites_myjobsweb_name": {
+        "webAppName": {
             "value": "myjobsweb"
-        },
-        "serverfarms_myjobs_sp_externalid": {
-            "value": "/subscriptions/f2d701eb-2b9b-4dd0-9ef5-8d11e28aef41/resourceGroups/myjobs-rg/providers/Microsoft.Web/serverfarms/myjobs-sp"
         }
     }
 }
