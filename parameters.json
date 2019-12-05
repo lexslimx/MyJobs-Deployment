@@ -2,8 +2,47 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "webAppName": {
-            "value": "myjobsweb"
+        "subscriptionId": {
+            "value": "f2d701eb-2b9b-4dd0-9ef5-8d11e28aef41"
+        },
+        "name": {
+            "value": "mysamplejobs"
+        },
+        "location": {
+            "value": "South Africa North"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "ASP-myjobsrg-b075"
+        },
+        "serverFarmResourceGroup": {
+            "value": "myjobs-rg"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "dotnetcore"
+        },
+        "errorLink": {
+            "value": "https://mysamplejobs.scm.azurewebsites.net/detectors"
         }
     }
 }
